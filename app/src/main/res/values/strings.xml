@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Flight App</string>
+
+    <!-- Search Flights Activity -->
+    <string name="departure_airport">JFK</string>
+    <string name="departure_city">New York</string>
+    <string name="arrival_airport">SFO</string>
+    <string name="arrival_city">San Francisco </string>
+    <string name="round_trip">Round Trip</string>
+    <string name="one_way">One Way</string>
+    <string name="departure">Departure</string>
+    <string name="return_trip">Return</string>
+    <string name="departure_date">Thur, 10 Nov</string>
+    <string name="return_date">Fri, 30 Nov</string>
+    <string name="passengers">Passengers</string>
+    <string name="adults">2 Adults</string>
+    <string name="cabin_class">Cabin Class</string>
+    <string name="cabin_class_economy">Economy</string>
+    <string name="cabin_class_business">Business</string>
+    <string name="cabin_class_first_class">First Class</string>
+    <string name="departure_time">7:00  10:45</string>
+    <string name="departure_locations_airline">JFK -, &#8211; SFO, American Airlines</string>
+    <string name="departure_flight_duration">6h 45min</string>
+    <string name="departure_non_stop">Non-stop</string>
+    <string name="arrival_time">7:00  10:45</string>
+    <string name="arrival_locations_airline">JFK -, &#8211; SFO, American Airlines</string>
+    <string name="arrival_flight_duration">6h 45min</string>
+    <string name="arrival_non_stop">Non-stop</string>
+    <string name="flight_summary">2 people $188.72</string>
+    <string name="flight_cost">$94.36</string>
+
+</resources>

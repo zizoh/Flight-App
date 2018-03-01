@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#506AF3</color>
+    <color name="colorPrimaryDark">#506AF3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="linkWater">#D3D4DA</color>
+    <color name="ghostWhite">#fcfcfd</color>
+    <color name="royalBlue">#506AF3</color>
+</resources>

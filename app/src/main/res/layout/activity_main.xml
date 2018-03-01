@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/royalBlue"
+    tools:context="com.example.android.flightapp.MainActivity">
+
+    <TextView
+        android:id="@+id/departure_airport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/departure_airport"
+        android:textColor="@color/ghostWhite"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toTopOf="@id/departure_city"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <TextView
+        android:id="@+id/departure_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/departure_city"
+        android:textColor="@color/ghostWhite"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@id/departure_airport"
+        app:layout_constraintTop_toBottomOf="@id/departure_airport" />
+
+    <TextView
+        android:id="@+id/arrival_airport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/arrival_airport"
+        android:textColor="@color/ghostWhite"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toTopOf="@id/arrival_city"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintLeft_toRightOf="@id/arrival_airport"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <TextView
+        android:id="@+id/arrival_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/arrival_city"
+        android:textColor="@color/ghostWhite"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@id/arrival_airport"
+        app:layout_constraintTop_toBottomOf="@id/arrival_airport" />
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/departure_city"
+        app:tabIndicatorColor="@color/ghostWhite">
+        <!-- app:tabBackground="@drawable/tab_color_selector"-->
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/round_trip">
+
+        </android.support.design.widget.TabItem>
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_way">
+
+        </android.support.design.widget.TabItem>
+
+    </android.support.design.widget.TabLayout>
+
+</android.support.constraint.ConstraintLayout>
