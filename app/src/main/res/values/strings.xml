@@ -2,6 +2,7 @@
     <string name="app_name">Flight App</string>
 
     <!-- Search Flights Activity -->
+    <string name="search_flight">Search Flights</string>
     <string name="departure_airport">JFK</string>
     <string name="departure_city">New York</string>
     <string name="arrival_airport">SFO</string>
@@ -13,17 +14,19 @@
     <string name="departure_date">Thur, 10 Nov</string>
     <string name="return_date">Fri, 30 Nov</string>
     <string name="passengers">Passengers</string>
-    <string name="adults">2 Adults</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="zero">0</string>
     <string name="cabin_class">Cabin Class</string>
-    <string name="cabin_class_economy">Economy</string>
-    <string name="cabin_class_business">Business</string>
-    <string name="cabin_class_first_class">First Class</string>
-    <string name="departure_time">7:00  10:45</string>
-    <string name="departure_locations_airline">JFK -, &#8211; SFO, American Airlines</string>
+    <string name="economy_class">Economy</string>
+    <string name="business_class">Business</string>
+    <string name="first_class">First Class</string>
+    <string name="departure_time">7:00 - 10:45</string>
+    <string name="departure_locations_airline">JFK - SFO, American Airlines</string>
     <string name="departure_flight_duration">6h 45min</string>
     <string name="departure_non_stop">Non-stop</string>
-    <string name="arrival_time">7:00  10:45</string>
-    <string name="arrival_locations_airline">JFK -, &#8211; SFO, American Airlines</string>
+    <string name="arrival_time">7:00 - 10:45</string>
+    <string name="arrival_locations_airline">JFK - SFO, American Airlines</string>
     <string name="arrival_flight_duration">6h 45min</string>
     <string name="arrival_non_stop">Non-stop</string>
     <string name="flight_summary">2 people $188.72</string>
