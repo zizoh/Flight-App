@@ -3,18 +3,21 @@
 
     <!-- Search Flights Activity -->
     <string name="search_flight">Search Flights</string>
-    <string name="departure_airport">JFK</string>
-    <string name="departure_city">New York</string>
-    <string name="arrival_airport">SFO</string>
-    <string name="arrival_city">San Francisco </string>
+    <string name="departure_airport">ABV</string>
+    <string name="departure_city">Abuja</string>
+    <string name="arrival_airport">LOS</string>
+    <string name="arrival_city">Lagos</string>
     <string name="round_trip">Round Trip</string>
     <string name="one_way">One Way</string>
     <string name="departure">Departure</string>
+    <string name="travel_date">Travel Date</string>
     <string name="return_trip">Return</string>
     <string name="departure_date">Thur, 10 Nov</string>
     <string name="return_date">Fri, 30 Nov</string>
     <string name="passengers">Passengers</string>
     <string name="adults">Adults</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
     <string name="children">Children</string>
     <string name="zero">0</string>
     <string name="cabin_class">Cabin Class</string>
@@ -22,11 +25,12 @@
     <string name="business_class">Business</string>
     <string name="first_class">First Class</string>
     <string name="departure_time">7:00 - 10:45</string>
-    <string name="departure_locations_airline">JFK - SFO, American Airlines</string>
+    <string name="departure_locations_airline">ABV - LOS, Arik Air</string>
     <string name="departure_flight_duration">6h 45min</string>
     <string name="departure_non_stop">Non-stop</string>
     <string name="arrival_time">7:00 - 10:45</string>
-    <string name="arrival_locations_airline">JFK - SFO, American Airlines</string>
+    <string name="airline_logo">airline logo</string>
+    <string name="arrival_locations_airline">ABV - LOS, Arik Air</string>
     <string name="arrival_flight_duration">6h 45min</string>
     <string name="arrival_non_stop">Non-stop</string>
     <string name="flight_summary">2 people $188.72</string>

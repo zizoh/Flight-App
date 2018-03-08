@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@color/royalBlue"
     android:orientation="vertical"
     android:paddingBottom="16dp"
@@ -12,47 +12,23 @@
         android:id="@+id/trip_type"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/departure"
-            android:layout_width="0dp"
+            android:id="@+id/travel_date"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:layout_weight="1"
-            android:text="@string/departure"
+            android:text="@string/travel_date"
             android:textColor="@color/linkWater" />
-
-        <TextView
-            android:id="@+id/return_trip"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_weight="1"
-            android:text="@string/return_trip"
-            android:textColor="@color/linkWater" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/dates_spinners"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
         <android.support.v7.widget.AppCompatSpinner
             android:id="@+id/departure_date_spinner"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-        <android.support.v7.widget.AppCompatSpinner
-            android:id="@+id/arrival_date_spinner"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/passengers"
@@ -171,8 +147,8 @@
 
 
     </LinearLayout>
-<!--
-    <android.support.v7.widget.AppCompatSpinner
+
+    <!--<android.support.v7.widget.AppCompatSpinner
         android:id="@+id/passengers_spinner"
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
@@ -182,22 +158,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cabin_class"
-        android:textColor="@color/linkWater" />-->
-
+        android:textColor="@color/linkWater"/>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingRight="16dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingRight="16dp">
 
         <android.support.design.widget.TabLayout
-            android:id="@+id/round_trip_cabin_class_tab"
+            android:id="@+id/one_way_cabin_class_tab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:tabIndicatorColor="@color/ghostWhite"/>
+            app:tabIndicatorColor="@color/ghostWhite" />
 
         <android.support.v4.view.ViewPager
-            android:id="@+id/round_trip_cabin_class_viewpager"
+            android:id="@+id/one_way_cabin_class_viewpager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/departure_airline_image"
+                android:layout_width="@dimen/list_item_height"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/airline_logo"
+                android:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/departure_airline_image"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/departure_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/departure_time"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/dimGray"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/departure_locations_airline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/departure_time"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/departure_locations_airline"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/departure_flight_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/departure_flight_duration"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/dimGray"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/departure_non_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/departure_flight_duration"
+                    android:text="@string/departure_non_stop"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/arrival_airline_image"
+                android:layout_width="@dimen/list_item_height"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/airline_logo"
+                android:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/arrival_airline_image"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/arrival_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/departure_time"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/dimGray"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/arrival_locations_airline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/arrival_time"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/departure_locations_airline"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/arrival_flight_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/departure_flight_duration"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/dimGray"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/arrival_non_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/arrival_flight_duration"
+                    android:text="@string/departure_non_stop"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:id="@+id/flight_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/flight_cost"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/flight_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/flight_cost"
+                    android:layout_toLeftOf="@id/flight_cost"
+                    android:text="@string/flight_summary"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
